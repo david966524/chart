@@ -1,0 +1,12 @@
+deployment_name: nginx-deployment
+replicas: 2
+pod_label: nginx-pod-label
+image: nginx
+imageTag: 1.17
+container_name: nginx-container
+service_name: nginx-service
+namespace: default
+port: 80
+targetport: 80
+containerport: 80
+nodeport: 31111
